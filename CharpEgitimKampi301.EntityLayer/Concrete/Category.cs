@@ -8,10 +8,15 @@ namespace CharpEgitimKampi301.EntityLayer.Concrete
 {
     internal class Category
     {
-        public int CategoryId { get; set; }// code first yaklaşımı için birinci anahtar olduğumu belirtmek için sınıfın ismi aynı yazılmalı snuna Id eklenmeli
+        //category tablosunda olmasnı istediklerimizi burada listeliyoruz fakat property olarak eklenmesi gerekmektedir 
+        //get ve set, örnek category adı ile bir kısıtlama getirmek isitiyorsunuz  get ısmında Category İd herzaman büyük gelsinistiyoruz set kısmında kural
+        //koymakistiyoruz  defaulşt 5 karakterden küçük gelirse selam yazsın
 
-        public int CategoryName { get; set; }   //prob+tab
-                                                // get almak set ayarlamak - Get kategori adı sürekli büyük gelsin -  set kural koymak eger 5 karakterden küçükse birseyler yazsın
+        public int CategoryId { get; set; }// code first yaklaşımı için birinci anahtar olduğumu belirtmek için sınıfın ismi aynı yazılmalı onuna Id eklenmeli
+
+         public int CategoryName { get; set; }   //prob+tab
+                                                // get almak set ayarlamak - Get kategori adı sürekli büyük gelsin -  set kural koymak eger 5 karakterden küçükse birseyler
+                                                // yazsın
         public bool CategoryStatus { get; set; }
     }
 }

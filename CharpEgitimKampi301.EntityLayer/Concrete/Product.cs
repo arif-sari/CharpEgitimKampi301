@@ -15,5 +15,9 @@ namespace CharpEgitimKampi301.EntityLayer.Concrete
         public int ProductStock { get; set; }
         public decimal ProductPrice { get; set; }
         public string ProductDescription { get; set; }
+
+        public int CategoryID { get; set; }
+
+        public int MyProperty { get; set; }
     }
 }

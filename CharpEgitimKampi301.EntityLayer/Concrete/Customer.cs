@@ -20,7 +20,8 @@ namespace CharpEgitimKampi301.EntityLayer.Concrete
 }
 
 /* SOLID 
-    Single responsibility - Tek sorumluluk ilkesi, bir methodi interface başka bir bileşen bağlı bulunduğu alanda sadece tek işlem yapmalı örn.aritmetik işlemleri
+    Single responsibility - Tek sorumluluk ilkesi, bir method interface başka bir bileşen bağlı bulunduğu alanda sadece tek 
+işlem yapmalı örn.aritmetik işlemleri
  
  
  
