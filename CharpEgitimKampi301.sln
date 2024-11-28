@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.BusinessLayer", "CharpEgitimKampi301.BusinessLayer\CharpEgitimKampi301.BusinessLayer.csproj", "{3CC983F4-6B75-467A-BA9F-E97CFAA2307B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.PresentationLayer", "CharpEgitimKampi301.PresentationLayer\CharpEgitimKampi301.PresentationLayer.csproj", "{57022629-7F7F-4BF7-99DB-63A4D4C503B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.PresentationLayer", "CharpEgitimKampi301.PresentationLayer\CharpEgitimKampi301.PresentationLayer.csproj", "{FA79C007-507A-4A93-AFC9-FC7A1AE27779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{3CC983F4-6B75-467A-BA9F-E97CFAA2307B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC983F4-6B75-467A-BA9F-E97CFAA2307B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC983F4-6B75-467A-BA9F-E97CFAA2307B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57022629-7F7F-4BF7-99DB-63A4D4C503B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57022629-7F7F-4BF7-99DB-63A4D4C503B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57022629-7F7F-4BF7-99DB-63A4D4C503B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57022629-7F7F-4BF7-99DB-63A4D4C503B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA79C007-507A-4A93-AFC9-FC7A1AE27779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA79C007-507A-4A93-AFC9-FC7A1AE27779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA79C007-507A-4A93-AFC9-FC7A1AE27779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA79C007-507A-4A93-AFC9-FC7A1AE27779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
