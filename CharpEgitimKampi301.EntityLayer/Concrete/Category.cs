@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CharpEgitimKampi301.EntityLayer.Concrete
 {
-    internal class Category
+    public class Category
     {
         //category tablosunda olmasnı istediklerimizi burada listeliyoruz fakat property olarak eklenmesi gerekmektedir 
         //get ve set, örnek category adı ile bir kısıtlama getirmek isitiyorsunuz  get ısmında Category İd herzaman büyük gelsinistiyoruz set kısmında kural
@@ -18,6 +18,10 @@ namespace CharpEgitimKampi301.EntityLayer.Concrete
                                                 // get almak set ayarlamak - Get kategori adı sürekli büyük gelsin -  set kural koymak eger 5 karakterden küçükse birseyler
                                                 // yazsın
         public bool CategoryStatus { get; set; }
+
+        public List<Product> Products { get; set; }
+
+
     }
 }
 

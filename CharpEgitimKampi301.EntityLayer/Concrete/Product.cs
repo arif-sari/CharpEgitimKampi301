@@ -16,8 +16,12 @@ namespace CharpEgitimKampi301.EntityLayer.Concrete
         public decimal ProductPrice { get; set; }
         public string ProductDescription { get; set; }
 
-        public int CategoryID { get; set; }
+        // her ürünümüzün kategorysi olmadı ve category ID sahibi olmalıdır
+        public int CategoryId { get; set; }
+       
 
-        public int MyProperty { get; set; }
+        public virtual Category Category { get; set; }
+
+        public List <Order> Orders { get; set; }
     }
 }
